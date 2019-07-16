@@ -26,7 +26,7 @@ public class WhenAddNewToDoTest {
     public static List<String> ITEM_TO_BE_ADDED = Arrays.asList("First thing to do");
     public static List<String> LIST_OF_ITEMS_TO_BE_ADDED = Arrays.asList("First Item", "Second Item", "Third Item");
 
-    @Managed(driver = "chrome")
+    @Managed
     public WebDriver Browser;
 
     @Before
