@@ -26,7 +26,7 @@ public class WhenDeleteItemTest {
     public static List<String> LIST_OF_ITEMS_TO_BE_DELETED = Arrays.asList("1 Item", "3 Item");
     public static List<String> LIST_OF_LEFT_ITEMS = Arrays.asList("2 Item");
 
-    @Managed(driver = "chrome")
+    @Managed
     public WebDriver Browser;
 
     @Before
