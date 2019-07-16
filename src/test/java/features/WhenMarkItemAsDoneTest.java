@@ -25,7 +25,7 @@ public class WhenMarkItemAsDoneTest {
     Actor user = Actor.named("User");
     public static List<String> LIST_OF_ITEMS_TO_BE_ADDED = Arrays.asList("1 Item", "2 Item", "3 Item");
 
-    @Managed(driver = "chrome")
+    @Managed
     public WebDriver Browser;
 
     @Before
